@@ -53,7 +53,11 @@ func newApp(version string, stdin io.Reader, stdout io.Writer, fs afero.Fs) *cli
 		// os.Exit, so the exit code stays testable.
 		ExitErrHandler: func(context.Context, *cli.Command, error) {},
 		Flags: []cli.Flag{
-			&cli.StringFlag{Name: flagDelimiter, Aliases: []string{"d"}, Usage: "field delimiter for splitting (default: whitespace)"},
+			&cli.StringFlag{
+				Name:    flagDelimiter,
+				Aliases: []string{"d"},
+				Usage:   "field delimiter for splitting (default: whitespace)",
+			},
 		},
 		Action: action(stdin, stdout, fs),
 	}
