@@ -1,21 +1,9 @@
-# yup-split
+[![actions](https://github.com/yupsh/yup-split/actions/workflows/actions.yml/badge.svg)](https://github.com/yupsh/yup-split/actions/workflows/actions.yml)
+[![ci](https://github.com/yupsh/yup-split/actions/workflows/ci.yml/badge.svg)](https://github.com/yupsh/yup-split/actions/workflows/ci.yml)
+[![dockerfiles](https://github.com/yupsh/yup-split/actions/workflows/dockerfiles.yml/badge.svg)](https://github.com/yupsh/yup-split/actions/workflows/dockerfiles.yml)
+[![docs](https://github.com/yupsh/yup-split/actions/workflows/docs.yml/badge.svg)](https://github.com/yupsh/yup-split/actions/workflows/docs.yml)
+[![go](https://github.com/yupsh/yup-split/actions/workflows/go.yml/badge.svg)](https://github.com/yupsh/yup-split/actions/workflows/go.yml)
+[![release](https://github.com/yupsh/yup-split/actions/workflows/release.yml/badge.svg)](https://github.com/yupsh/yup-split/actions/workflows/release.yml)
+[![shell](https://github.com/yupsh/yup-split/actions/workflows/shell.yml/badge.svg)](https://github.com/yupsh/yup-split/actions/workflows/shell.yml)
 
-```
-NAME:
-   split - split each input line into multiple output lines on a delimiter
-
-USAGE:
-   split [OPTIONS] [FILE...]
-
-   Read lines and split each line on a delimiter, emitting one field per output
-   line. Default splits on runs of whitespace. With no FILE, or when FILE is -,
-   read standard input.
-
-VERSION:
-   dev
-
-GLOBAL OPTIONS:
-   --delimiter string, -d string  field delimiter for splitting (default: whitespace)
-   --help, -h                     show help
-   --version                      print version information and exit
-```
+[docs](https://yupsh.github.io/docs.repl/)
