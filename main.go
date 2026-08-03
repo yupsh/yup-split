@@ -42,6 +42,8 @@ func flags() []urf.Flag {
 			Name:    flagDelimiter,
 			Aliases: []string{"d"},
 			Usage:   "field delimiter for splitting (default: whitespace)",
+			Sources: urf.EnvVars("YUP_SPLIT_DELIMITER"),
+			Value:   "",
 		},
 	}
 }
